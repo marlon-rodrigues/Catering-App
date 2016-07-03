@@ -8,20 +8,136 @@
 
 /* Begin PBXBuildFile section */
 		B1627EF11C3EB86A00C4012C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627EF01C3EB86A00C4012C /* AppDelegate.swift */; };
-		B1627EF31C3EB86A00C4012C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627EF21C3EB86A00C4012C /* ViewController.swift */; };
 		B1627EF61C3EB86A00C4012C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1627EF41C3EB86A00C4012C /* Main.storyboard */; };
 		B1627EF81C3EB86A00C4012C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1627EF71C3EB86A00C4012C /* Assets.xcassets */; };
 		B1627EFB1C3EB86A00C4012C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1627EF91C3EB86A00C4012C /* LaunchScreen.storyboard */; };
+		B1627F051C3EC1E100C4012C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F041C3EC1E100C4012C /* HomeViewController.swift */; };
+		B1627F071C3EC1F700C4012C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F061C3EC1F700C4012C /* LoginViewController.swift */; };
+		B1627F201C3ED04300C4012C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1627F131C3ECFF500C4012C /* Alamofire.framework */; };
+		B1627F211C3ED04300C4012C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1627F131C3ECFF500C4012C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1627F261C3EF58C00C4012C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F251C3EF58C00C4012C /* User.swift */; };
+		B1627F281C3EFBCB00C4012C /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F271C3EFBCB00C4012C /* DeliveryViewController.swift */; };
+		B1627F2D1C3F0E1A00C4012C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1627F2C1C3F0E1A00C4012C /* Roboto-Regular.ttf */; };
+		B1627F2F1C3F0EE200C4012C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1627F2E1C3F0EE200C4012C /* Roboto-Light.ttf */; };
+		B1627F311C3F0EFB00C4012C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1627F301C3F0EFB00C4012C /* Roboto-Thin.ttf */; };
+		B1627F331C3F452500C4012C /* DeliveryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F321C3F452500C4012C /* DeliveryContainerViewController.swift */; };
+		B1627F351C3F513B00C4012C /* PickupContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F341C3F513B00C4012C /* PickupContainerViewController.swift */; };
+		B1627F371C3F582C00C4012C /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F361C3F582C00C4012C /* DateSelectionViewController.swift */; };
+		B1627F391C3FFBAF00C4012C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F381C3FFBAF00C4012C /* WelcomeViewController.swift */; };
+		B1627F3B1C40290000C4012C /* PriceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F3A1C40290000C4012C /* PriceListTableViewController.swift */; };
+		B1627F3D1C40293500C4012C /* PriceItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F3C1C40293500C4012C /* PriceItemsTableViewCell.swift */; };
+		B1627F431C402FB900C4012C /* PriceListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F421C402FB900C4012C /* PriceListItem.swift */; };
+		B1627F451C405B5C00C4012C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1627F441C405B5C00C4012C /* Roboto-ThinItalic.ttf */; };
+		B1627F4B1C4065D200C4012C /* PriceListHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F4A1C4065D200C4012C /* PriceListHeaderViewController.swift */; };
+		B1627F511C41FAD900C4012C /* PriceItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F501C41FAD900C4012C /* PriceItemDetailsViewController.swift */; };
+		B1627F551C42B29400C4012C /* ShoppingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F541C42B29400C4012C /* ShoppingListItem.swift */; };
+		B1627F571C42B8A200C4012C /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F561C42B8A200C4012C /* CheckoutViewController.swift */; };
+		B1627F5B1C42C05000C4012C /* CheckoutItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F5A1C42C05000C4012C /* CheckoutItemTableViewCell.swift */; };
+		B1627F5D1C43273500C4012C /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1627F5C1C43273500C4012C /* ThankYouViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1627F121C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		B1627F141C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		B1627F161C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		B1627F181C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		B1627F1A1C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		B1627F1C1C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		B1627F1E1C3ECFF500C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		B1627F221C3ED04300C4012C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1627F241C3ED04300C4012C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1627F211C3ED04300C4012C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B1627EED1C3EB86900C4012C /* Catering App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catering App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1627EF01C3EB86A00C4012C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1627EF21C3EB86A00C4012C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1627EF51C3EB86A00C4012C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1627EF71C3EB86A00C4012C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1627EFA1C3EB86A00C4012C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1627EFC1C3EB86A00C4012C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1627F041C3EC1E100C4012C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		B1627F061C3EC1F700C4012C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		B1627F251C3EF58C00C4012C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		B1627F271C3EFBCB00C4012C /* DeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
+		B1627F2C1C3F0E1A00C4012C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../Downloads/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B1627F2E1C3F0EE200C4012C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../../Downloads/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		B1627F301C3F0EFB00C4012C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../../Downloads/roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		B1627F321C3F452500C4012C /* DeliveryContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryContainerViewController.swift; sourceTree = "<group>"; };
+		B1627F341C3F513B00C4012C /* PickupContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupContainerViewController.swift; sourceTree = "<group>"; };
+		B1627F361C3F582C00C4012C /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectionViewController.swift; sourceTree = "<group>"; };
+		B1627F381C3FFBAF00C4012C /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B1627F3A1C40290000C4012C /* PriceListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceListTableViewController.swift; sourceTree = "<group>"; };
+		B1627F3C1C40293500C4012C /* PriceItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceItemsTableViewCell.swift; sourceTree = "<group>"; };
+		B1627F421C402FB900C4012C /* PriceListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceListItem.swift; path = ../PriceListItem.swift; sourceTree = "<group>"; };
+		B1627F441C405B5C00C4012C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../../Downloads/roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B1627F4A1C4065D200C4012C /* PriceListHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceListHeaderViewController.swift; sourceTree = "<group>"; };
+		B1627F501C41FAD900C4012C /* PriceItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceItemDetailsViewController.swift; path = ../PriceItemDetailsViewController.swift; sourceTree = "<group>"; };
+		B1627F541C42B29400C4012C /* ShoppingListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingListItem.swift; path = ../ShoppingListItem.swift; sourceTree = "<group>"; };
+		B1627F561C42B8A200C4012C /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		B1627F5A1C42C05000C4012C /* CheckoutItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutItemTableViewCell.swift; sourceTree = "<group>"; };
+		B1627F5C1C43273500C4012C /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1627F201C3ED04300C4012C /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +155,7 @@
 		B1627EE41C3EB86900C4012C = {
 			isa = PBXGroup;
 			children = (
+				B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */,
 				B1627EEF1C3EB86A00C4012C /* Catering App */,
 				B1627EEE1C3EB86900C4012C /* Products */,
 			);
@@ -54,14 +172,48 @@
 		B1627EEF1C3EB86A00C4012C /* Catering App */ = {
 			isa = PBXGroup;
 			children = (
-				B1627EF01C3EB86A00C4012C /* AppDelegate.swift */,
-				B1627EF21C3EB86A00C4012C /* ViewController.swift */,
 				B1627EF41C3EB86A00C4012C /* Main.storyboard */,
+				B1627F441C405B5C00C4012C /* Roboto-ThinItalic.ttf */,
+				B1627F301C3F0EFB00C4012C /* Roboto-Thin.ttf */,
+				B1627F2E1C3F0EE200C4012C /* Roboto-Light.ttf */,
+				B1627F2C1C3F0E1A00C4012C /* Roboto-Regular.ttf */,
+				B1627F251C3EF58C00C4012C /* User.swift */,
+				B1627F421C402FB900C4012C /* PriceListItem.swift */,
+				B1627F541C42B29400C4012C /* ShoppingListItem.swift */,
+				B1627F041C3EC1E100C4012C /* HomeViewController.swift */,
+				B1627EF01C3EB86A00C4012C /* AppDelegate.swift */,
+				B1627F3A1C40290000C4012C /* PriceListTableViewController.swift */,
+				B1627F4A1C4065D200C4012C /* PriceListHeaderViewController.swift */,
+				B1627F3C1C40293500C4012C /* PriceItemsTableViewCell.swift */,
+				B1627F501C41FAD900C4012C /* PriceItemDetailsViewController.swift */,
+				B1627F561C42B8A200C4012C /* CheckoutViewController.swift */,
+				B1627F5A1C42C05000C4012C /* CheckoutItemTableViewCell.swift */,
+				B1627F381C3FFBAF00C4012C /* WelcomeViewController.swift */,
+				B1627F271C3EFBCB00C4012C /* DeliveryViewController.swift */,
+				B1627F341C3F513B00C4012C /* PickupContainerViewController.swift */,
+				B1627F321C3F452500C4012C /* DeliveryContainerViewController.swift */,
+				B1627F361C3F582C00C4012C /* DateSelectionViewController.swift */,
+				B1627F061C3EC1F700C4012C /* LoginViewController.swift */,
+				B1627F5C1C43273500C4012C /* ThankYouViewController.swift */,
 				B1627EF71C3EB86A00C4012C /* Assets.xcassets */,
 				B1627EF91C3EB86A00C4012C /* LaunchScreen.storyboard */,
 				B1627EFC1C3EB86A00C4012C /* Info.plist */,
 			);
 			path = "Catering App";
+			sourceTree = "<group>";
+		};
+		B1627F091C3ECFF500C4012C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1627F131C3ECFF500C4012C /* Alamofire.framework */,
+				B1627F151C3ECFF500C4012C /* Alamofire iOS Tests.xctest */,
+				B1627F171C3ECFF500C4012C /* Alamofire.framework */,
+				B1627F191C3ECFF500C4012C /* Alamofire OSX Tests.xctest */,
+				B1627F1B1C3ECFF500C4012C /* Alamofire.framework */,
+				B1627F1D1C3ECFF500C4012C /* Alamofire tvOS Tests.xctest */,
+				B1627F1F1C3ECFF500C4012C /* Alamofire.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +226,12 @@
 				B1627EE91C3EB86900C4012C /* Sources */,
 				B1627EEA1C3EB86900C4012C /* Frameworks */,
 				B1627EEB1C3EB86900C4012C /* Resources */,
+				B1627F241C3ED04300C4012C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B1627F231C3ED04300C4012C /* PBXTargetDependency */,
 			);
 			name = "Catering App";
 			productName = "Catering App";
@@ -111,12 +265,70 @@
 			mainGroup = B1627EE41C3EB86900C4012C;
 			productRefGroup = B1627EEE1C3EB86900C4012C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B1627F091C3ECFF500C4012C /* Products */;
+					ProjectRef = B1627F081C3ECFF500C4012C /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B1627EEC1C3EB86900C4012C /* Catering App */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B1627F131C3ECFF500C4012C /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = B1627F121C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F151C3ECFF500C4012C /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = B1627F141C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F171C3ECFF500C4012C /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = B1627F161C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F191C3ECFF500C4012C /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = B1627F181C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F1B1C3ECFF500C4012C /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = B1627F1A1C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F1D1C3ECFF500C4012C /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = B1627F1C1C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B1627F1F1C3ECFF500C4012C /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = B1627F1E1C3ECFF500C4012C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B1627EEB1C3EB86900C4012C /* Resources */ = {
@@ -125,6 +337,10 @@
 			files = (
 				B1627EFB1C3EB86A00C4012C /* LaunchScreen.storyboard in Resources */,
 				B1627EF81C3EB86A00C4012C /* Assets.xcassets in Resources */,
+				B1627F311C3F0EFB00C4012C /* Roboto-Thin.ttf in Resources */,
+				B1627F451C405B5C00C4012C /* Roboto-ThinItalic.ttf in Resources */,
+				B1627F2F1C3F0EE200C4012C /* Roboto-Light.ttf in Resources */,
+				B1627F2D1C3F0E1A00C4012C /* Roboto-Regular.ttf in Resources */,
 				B1627EF61C3EB86A00C4012C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,12 +352,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1627EF31C3EB86A00C4012C /* ViewController.swift in Sources */,
+				B1627F391C3FFBAF00C4012C /* WelcomeViewController.swift in Sources */,
+				B1627F261C3EF58C00C4012C /* User.swift in Sources */,
+				B1627F071C3EC1F700C4012C /* LoginViewController.swift in Sources */,
+				B1627F351C3F513B00C4012C /* PickupContainerViewController.swift in Sources */,
+				B1627F5B1C42C05000C4012C /* CheckoutItemTableViewCell.swift in Sources */,
+				B1627F331C3F452500C4012C /* DeliveryContainerViewController.swift in Sources */,
+				B1627F281C3EFBCB00C4012C /* DeliveryViewController.swift in Sources */,
+				B1627F371C3F582C00C4012C /* DateSelectionViewController.swift in Sources */,
+				B1627F4B1C4065D200C4012C /* PriceListHeaderViewController.swift in Sources */,
+				B1627F5D1C43273500C4012C /* ThankYouViewController.swift in Sources */,
+				B1627F3B1C40290000C4012C /* PriceListTableViewController.swift in Sources */,
+				B1627F431C402FB900C4012C /* PriceListItem.swift in Sources */,
+				B1627F511C41FAD900C4012C /* PriceItemDetailsViewController.swift in Sources */,
+				B1627F3D1C40293500C4012C /* PriceItemsTableViewCell.swift in Sources */,
+				B1627F571C42B8A200C4012C /* CheckoutViewController.swift in Sources */,
 				B1627EF11C3EB86A00C4012C /* AppDelegate.swift in Sources */,
+				B1627F551C42B29400C4012C /* ShoppingListItem.swift in Sources */,
+				B1627F051C3EC1E100C4012C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1627F231C3ED04300C4012C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = B1627F221C3ED04300C4012C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B1627EF41C3EB86A00C4012C /* Main.storyboard */ = {
@@ -250,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Catering App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marlonrodrigues.Catering-App";
@@ -261,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Catering App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marlonrodrigues.Catering-App";
@@ -287,6 +529,7 @@
 				B1627F011C3EB86A00C4012C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

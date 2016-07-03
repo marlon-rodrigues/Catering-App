@@ -6,6 +6,11 @@
     },
     {
       "idiom" : "universal",
+      "filename" : "Remove_Button.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
       "scale" : "3x"
     }
   ],
